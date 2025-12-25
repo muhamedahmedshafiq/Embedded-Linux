@@ -1,0 +1,1 @@
+/home/muhamed/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++ -fPIC -shared -Wl,-soname,libsevensegment_lib.so -o libsevensegment_lib.so CMakeFiles/sevensegment_lib.dir/sevensegment.cpp.o 

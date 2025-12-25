@@ -1,0 +1,1 @@
+/home/muhamed/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++ CMakeFiles/sevensegment_app.dir/app/main.cpp.o -o sevensegment_app  -Wl,-rpath,/home/muhamed/ITI/ITI_FADY/me/TASK9/build/source source/libsevensegment_lib.so 

@@ -1,0 +1,7 @@
+/home/muhamed/ITI/ITI_FADY/me/TASK9/build/CMakeFiles/sevensegment_app.dir
+/home/muhamed/ITI/ITI_FADY/me/TASK9/build/CMakeFiles/upload.dir
+/home/muhamed/ITI/ITI_FADY/me/TASK9/build/CMakeFiles/edit_cache.dir
+/home/muhamed/ITI/ITI_FADY/me/TASK9/build/CMakeFiles/rebuild_cache.dir
+/home/muhamed/ITI/ITI_FADY/me/TASK9/build/source/CMakeFiles/sevensegment_lib.dir
+/home/muhamed/ITI/ITI_FADY/me/TASK9/build/source/CMakeFiles/edit_cache.dir
+/home/muhamed/ITI/ITI_FADY/me/TASK9/build/source/CMakeFiles/rebuild_cache.dir
