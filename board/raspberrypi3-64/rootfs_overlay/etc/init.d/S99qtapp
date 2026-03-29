@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Starting Calculator..."
+        export QT_QPA_PLATFORM=linuxfb
+        export LANG=C.UTF-8
+        export QT_QPA_FB_HIDECURSOR=0
+        export QT_QPA_GENERIC_PLUGINS=evdevmouse:/dev/input/mice,evdevtouch:/dev/input/event1
+        sleep 5
+        /usr/bin/iti-gpio > /tmp/qtapp.log 2>&1 &
+        ;;
+    stop)
+        killall -9 iti-gpio
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        ;;
+esac
+
+exit 0

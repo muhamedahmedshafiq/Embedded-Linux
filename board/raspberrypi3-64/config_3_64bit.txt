@@ -1,0 +1,22 @@
+start_file=start.elf
+fixup_file=fixup.dat
+
+kernel=Image
+
+# Disable overscan
+disable_overscan=1
+
+# GPU Memory
+gpu_mem=256
+
+# Enable UART0 for serial console
+dtoverlay=miniuart-bt
+
+# Enable 64bits support
+arm_64bit=1
+
+# Enable DRM/KMS driver for Qt EGLFS
+dtoverlay=vc4-fkms-v3d
+
+# Force HDMI output
+hdmi_force_hotplug=1
